@@ -62,3 +62,9 @@ Brazilian e-commerce (Olist) dataset containing:
    python scripts/02_silver_transform.py
    python scripts/03_gold_aggregate.py
 
+## Athena Query
+
+The Gold layer Parquet data is exposed to Amazon Athena using an external table.
+
+The table definition and validation query are available in:
+- `sql/athena_gold_table.sql`
